@@ -1,0 +1,35 @@
+@import "../../sass/variable.scss";
+.notesArea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .notes {
+    margin: 0.5rem;
+    background-color: #4fc3f7;
+    border-radius: 4px;
+    box-shadow: 0px 5px 5px $boxShadow1;
+    align-items: center;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    word-wrap: break-word;
+    opacity: 1;
+    transition: all 1s;
+    .notesText {
+      margin-left: 1rem;
+      color: #fff;
+      transition: all 0.5s;
+    }
+    .notesText.completed {
+      text-decoration: line-through;
+      color: rgba(255, 255, 255, 0.524);
+    }
+    .notesControl {
+      color: #fff;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  .notes.deleted {
+    opacity: 0;
+  }
+}

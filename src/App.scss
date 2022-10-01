@@ -1,0 +1,11 @@
+@import "./sass/variable.scss";
+.App {
+  background-color: $backgroundColor;
+  height: 100vh;
+  .title {
+    text-align: center;
+    padding: 2rem;
+    color: $appTitle;
+    font-size: 3rem;
+  }
+}

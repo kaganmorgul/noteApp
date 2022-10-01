@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+$backgroundColor: #eaeaea;
+$appTitle: grey;
+$placeHolder: rgb(169, 166, 166);
+$inputBorder: rgb(203, 203, 203);
+$boxShadow1: rgb(209, 209, 209);
